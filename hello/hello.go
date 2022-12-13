@@ -1,5 +1,8 @@
 package main
 
+const ENGLISH = "english"
+const SPANISH = "spanish"
+
 const englishHelloPrefix = "Hello, "
 const spanishHelloPrefix = "Hola, "
 
@@ -8,7 +11,7 @@ func Hello(name string, language string) string {
 		name = "world"
 	}
 
-	if language == "spanish" {
+	if language == SPANISH {
 		return spanishHelloPrefix + name
 	}
 
