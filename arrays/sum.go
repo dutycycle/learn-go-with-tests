@@ -1,5 +1,5 @@
 package sum
 
-func Sum(numbers [5]int) int {
+func Sum(numbers []int) int {
 	return 0
 }
